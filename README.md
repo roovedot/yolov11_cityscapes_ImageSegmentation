@@ -1,6 +1,6 @@
 # Custom Image Segmentation for Autonomous Driving Aplications
 
-link to Notes/Documentation -> https://massive-birch-56b.notion.site/Custom-Yolov8-Object-Detection-Model-for-Autonomous-Driving-Applications-141d04bb941780a0ae4df644c2ea04f1
+link to Notes/Documentation -> https://massive-birch-56b.notion.site/V2-Custom-Image-Segmentation-for-Autonomous-Driving-Aplications-149d04bb941780bead02c5130035e065
 
 This is the **second and final version** of a custom Object detection Model aimed at **recognising cars, bicicles, pedestrians, and other obstacles which may appear on the road through a dashcam.**
 
