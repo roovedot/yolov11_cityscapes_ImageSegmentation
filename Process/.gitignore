@@ -1,0 +1,11 @@
+# Ignore all data
+/trainvaltest/
+*.png
+*leftImg8bit*
+
+# Ignore .pt files and cache
+*.pt
+*.cache
+
+# Ignore runs directory
+/runs/
