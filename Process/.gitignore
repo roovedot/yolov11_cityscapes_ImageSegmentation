@@ -2,6 +2,7 @@
 /trainvaltest/
 *.png
 *leftImg8bit*
+*.mp4
 
 # Ignore .pt files and cache
 *.pt
