@@ -10,4 +10,4 @@ The objective is to **implement this model to assist, in real time, a Self-Drivi
 
 This time, I have acces to a **MUCH bigger dataset** (cityscapes Dataset) and a **more powerful machine** to be able to train the model, kindly provided by my University [(Universidad Europea de Madrid)](https://universidadeuropea.com/conocenos/madrid/)
 
-To make this model, I fine-tuned ultralytics **Yolov11n-seg.pt** Model on [**CityScapes Dataset](https://www.cityscapes-dataset.com/),** for instance Image Segmentation.
+To make this model, I fine-tuned ultralytics **Yolov11n-seg.pt** Model on [CityScapes Dataset](https://www.cityscapes-dataset.com/), for instance Image Segmentation.
