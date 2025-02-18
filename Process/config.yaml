@@ -1,5 +1,5 @@
-train: "/media/roovedot/common/Pr.Inv.JavierFernandez/Image_Segmentation/dataYolo11Structure/train"
-val: "/media/roovedot/common/Pr.Inv.JavierFernandez/Image_Segmentation/dataYolo11Structure/valid"
+train: "dataYolo11Structure/train"
+val: "dataYolo11Structure/valid"
 
-nc: 21
-names: ['rectification border', 'ground', 'road', 'sidewalk', 'parking', 'rail track', 'wall', 'fence', 'guard rail', 'traffic light', 'terrain', 'person', 'rider', 'car', 'truck', 'bus', 'caravan', 'trailer', 'train', 'motorcycle', 'bicycle']
+nc: 14
+names: ['object', 'ground', 'road', 'sidewalk', 'wall', 'fence', 'traffic sign', 'terrain', 'person', 'rider', 'car', 'big vehicle', 'motorcycle', 'bicycle']

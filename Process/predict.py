@@ -3,10 +3,10 @@ import cv2
 import sys
 
 # Load the trained YOLO model
-model = YOLO('runs/segment/train24/weights/best.pt')
+model = YOLO('/runs/segment/train/weights/best.pt')
 
 # Path to the input video
-video_path = '/media/roovedot/common/Pr.Inv.JavierFernandez/InvProject/3d2b038d1276f564_00000019--6a99fe9b8e--2--qcamera.ts'  
+video_path = 'testVideo.mp4'  
 
 # If a video path is not provided, prompt the user to input one
 if not video_path:
@@ -16,7 +16,7 @@ if not video_path:
 results = model(video_path, save=True, stream=True)
 
 # Define the video writer
-output_path = './segmented_video_output.mp4'  # Adjust path as needed
+output_path = 'outputVideo.mp4'  # Adjust path as needed
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Codec for MP4 files
 fps = 30  # Adjust based on your input video's frame rate
 frame_width, frame_height = None, None
