@@ -1,0 +1,21 @@
+
+### ILLUMINATION AND COLOR
+
+hsv_h: 0.03       # Increase hue variation to simulate different lighting conditions
+hsv_s: 0.8        # Wider saturation range for more color diversity
+hsv_v: 0.6        # Adjust brightness variation to mimic bright/dark scenes
+
+### GEOMETRIC TRANSFORMATIONS
+
+degrees: 3.0      # Allow small rotations (+/- 3°) for slight viewpoint variations
+translate: 0.1    # Allow a 10% shift of image position
+scale: 0.2        # Scale images by ±20% to help with size variations
+shear: 0.1        # Reduce shear to 10° to avoid too extreme distortions
+perspective: 0.05 # Very slight perspective changes (5% variation)
+flipud: 0.0       # Disable vertical flipping (not realistic for dashcam/road views)
+fliplr: 0.5       # Enable horizontal flipping at 50% probability
+
+### MIXUPS / TARGET ISOLATION
+mosaic: 0.4       # Increase mosaic probability to mix different scenes and break context
+mixup: 0.2        # Increase mixup probability to further blend object instances
+copy_paste: 0.1   # Enable copy-paste at 10% probability to decouple objects from busy backgrounds

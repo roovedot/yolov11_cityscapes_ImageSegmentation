@@ -1,0 +1,5 @@
+train: "/media/roovedot/PHILIPS/cityscapes/dataYolo11Structure/train"
+val: "/media/roovedot/PHILIPS/cityscapes/dataYolo11Structure/valid"
+
+nc: 5
+names: ['barrier', 'person', '2wheel', 'car', 'big vehicle']

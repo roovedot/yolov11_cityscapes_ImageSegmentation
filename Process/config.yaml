@@ -1,5 +1,0 @@
-train: "dataYolo11Structure/train"
-val: "dataYolo11Structure/valid"
-
-nc: 14
-names: ['object', 'ground', 'road', 'sidewalk', 'wall', 'fence', 'traffic sign', 'terrain', 'person', 'rider', 'car', 'big vehicle', 'motorcycle', 'bicycle']
